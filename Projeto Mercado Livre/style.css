@@ -1,0 +1,121 @@
+body {
+    background-color: #EBEBEB;
+}
+
+header {
+    background-color: #FFE600;
+}
+
+.logo-X-nav-search-bar-area {
+    justify-self: center;
+    display: flex;
+    gap: 10pt
+}
+
+.logo-image-mercado-livre {
+    width: 120pt;
+    height: auto;
+    margin: 0;
+    padding-top: 10pt;
+}
+
+.nav-search-bar-area {
+    justify-self: center;
+    margin: 0;
+    padding: 10pt;
+}
+
+.nav-search-bar {
+    width: 350pt;
+    height: 30pt;
+
+    max-width: 350pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    box-shadow: 0pt 1pt 0pt 1pt rgba(0, 0, 0, 0.08);
+    border: none;
+    border-radius: 1pt;
+
+    font-size: 12pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-menu {
+    justify-self: center;
+}
+
+.nav-menu-list {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 5pt;
+    padding-bottom: 8pt;
+
+    display: flex;
+    gap: 10pt;
+}
+
+.nav-menu-item-link {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin-left: 300pt;
+    margin-right: 300pt;
+    padding: 0;
+    padding-top: 30pt;
+}
+
+.product-section {
+    padding-bottom: 20pt;
+    justify-self: center;
+    display: flex;
+    gap: 15pt;
+}
+
+.product-nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.product {
+    background-color: white;
+    box-shadow: 0pt 1pt 10pt 1pt rgba(0, 0, 0, 0.08);
+    border-radius: 2pt;
+
+    width: 150pt;
+    margin: 0;
+    padding: 10pt;
+}
+
+.product-image {
+    justify-self: center;
+
+    width: 150pt;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.product-name {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11pt;
+    font-weight: normal;
+
+    margin: 0;
+    padding: 0;
+    padding-top: 5pt;
+}
+
+.product-price {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    font-weight: 450;
+
+    margin: 0;
+    padding: 0;
+    padding-top: 5pt;
+}
